@@ -36,4 +36,4 @@ Feature: Mathematical Calculation
 
     Examples:
       | num1 | num2 |
-      | 25    | 5    |
+      | 25    | 5   |
