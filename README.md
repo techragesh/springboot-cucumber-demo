@@ -33,10 +33,14 @@ This project explains how to use BDD using cucumber in springboot
     
 ### Cucumber Structure
 
-• Feature: Single file, ideally describing a single feature 
-• Scenario: A test case 
-• Given-When-Then: Test Preconditions, Execution and Postconditions 
+• Feature: Single file, ideally describing a single feature
+
+• Scenario: A test case
+
+• Given-When-Then: Test Preconditions, Execution and Postconditions
+
 • And: Additional test constructs
+
     
 
 ### Calculator Application
