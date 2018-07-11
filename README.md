@@ -3,15 +3,15 @@ This project explains how to use BDD using cucumber in springboot
 
 ### Cucumber
 
-    * **Cucumber** is a high-level testing framework that supports **behaviour driven development**.
+    * Cucumber is a high-level testing framework that supports behaviour driven development.
     
     * It runs automated acceptance tests on web applications
     
     * Cucumber is a tool that executes plain-text functional descriptions as automated tests. 
-      The language that Cucumber understand is **Gherkin**.
+      The language that Cucumber understand is Gherkin.
       
 
-       **Flow**
+       Flow :
     
         1. Describe behaviour.
         2. Write Step definition.
@@ -21,13 +21,15 @@ This project explains how to use BDD using cucumber in springboot
 
 ### Feature File Introduction
     
-    Feature Introduction Every .feature file conventionally consists of a single feature. A line starting with the keyword Feature followed by free indented text starts a feature. A feature usually contains a list of scenarios. scenarios together independent of your file and directory structure.
+    Feature Introduction Every .feature file conventionally consists of a single feature.
+    A line starting with the keyword Feature followed by free indented text starts a feature. 
+    A feature usually contains a list of scenarios. scenarios together independent of your file and directory structure.
     
-    **Given** -> What software will look like to user
+    Given -> What software will look like to user
     
-    **When**  -> Things that the user will do
+    When  -> Things that the user will do
     
-    **Then**  -> What the user should expect
+    Then  -> What the user should expect
     
 ### Cucumber Structure
 
@@ -43,12 +45,12 @@ This project explains how to use BDD using cucumber in springboot
     
     I made simple calcuation service in rest using springboot for add, sub, multi and divide.
     
-        ⋅⋅⋅For example if you hit the url after the starting spring boot application the output will be like this.⋅⋅
+        For example if you hit the url after the starting spring boot application the output will be like this.
         
-              Rest URL : **http://localhost:8081/calc/add/5/4**
-              Output   : **Addition of 5 + 4 is 9**
+              Rest URL : http://localhost:8081/calc/add/5/4
+              Output   : Addition of 5 + 4 is 9
               
-        ⋅⋅⋅Similar for sub, multi and divide.⋅⋅
+        Similar for sub, multi and divide.
         
 ### Cucumber Configuration and Feature File
 
